@@ -32,69 +32,61 @@ http://www.whois.com/whois website to get detailed information about a domain na
 ## Finding IP adress:
 ping command is available on Windows as well as on Linux OS. Following is the example to find out the IP address of saveetha.ac.in.
 
-ping saveetha.ac.in
+ping training.saveetha.in
 
 ## Output:
-![image](https://github.com/gokul-sureshkumar/InformationGathering/assets/121148715/0f9a3d5c-ae8c-4d1b-a4f5-2a025ed498a5)
+![Screenshot (109)](https://github.com/user-attachments/assets/86aad831-b76c-4f79-af34-cdf3e40143f6)
+
 ## Finding Hosting Company:
 get further detail by using ip2location.com website.
 
 ## Output:
-![image](https://github.com/gokul-sureshkumar/InformationGathering/assets/121148715/bbf4095f-00d4-49b8-a950-ddd504d0d81e)
+![Screenshot (102)](https://github.com/user-attachments/assets/bd9812a1-c453-4f03-8f6c-80b9f6237db9)
+
 ## History of the wbsite:
 ## Output:
 https://web.archive.org/
 ![image](https://github.com/gokul-sureshkumar/InformationGathering/assets/121148715/f5166239-895a-4e51-924a-1771ccea3ec8)
 ## Web server Fingerprint:
-## Netcat:
 
-nc 172.17.52.118 80
-
-## Output:
-![image](https://github.com/gokul-sureshkumar/InformationGathering/assets/121148715/2f794aca-900f-4e44-b5e4-9eff031425ab)
 ## nmap:
 
 nmap -p 21 -sV --script=banner ftp.vim.org
 
 ## Output:
-![image](https://github.com/gokul-sureshkumar/InformationGathering/assets/121148715/f8eebdf9-67ff-42c0-ae3b-b126d20576bb)
+
+![Screenshot (107)](https://github.com/user-attachments/assets/95195721-a1ff-4d7f-9567-1e7b7bafa39c)
+
 ## Whatweb:
 
-whatweb infosys.com
-
-
-whatweb zoho.com
-
-
-whatweb -v -a 3 172.17.52.201
+whatweb training.saveetha.in
 
 ## Output:
-![image](https://github.com/gokul-sureshkumar/InformationGathering/assets/121148715/13003241-f18f-4e84-b15d-86a327e9c68c)
-## httprint:
+![Screenshot (108)](https://github.com/user-attachments/assets/65de4a52-9d3a-4dcb-b949-e0872d166243)
 
-httprint -h 172.17.52.201 -s /usr/share/httprint/signatures.txt -P0 |more
 
-## Output:
-![image](https://github.com/gokul-sureshkumar/InformationGathering/assets/121148715/e1275ae0-7aef-43d9-a8bf-99be791d0070)
 ## Tracing the Location:
 ## TCP Traceroute:
 
-sudo traceroute -T www.saveetha.ac.in
+sudo traceroute -T www.google.com
 
 ## Output:
-![image](https://github.com/gokul-sureshkumar/InformationGathering/assets/121148715/67469d67-bba1-4fa1-925d-1bc35c4146ca)
+![Screenshot (105)](https://github.com/user-attachments/assets/4b192906-3975-4d56-a130-12e810aaa2c6)
+
 ## UDP Traceroute:
 
-sudo traceroute -U www.saveetha.ac.in
+sudo traceroute -U www.google.com
 
 ## Output:
-![image](https://github.com/gokul-sureshkumar/InformationGathering/assets/121148715/6f980827-c16f-4865-afff-1de0714937fd)
+![Screenshot (110)](https://github.com/user-attachments/assets/f938bbe2-c4e2-4f23-a3d9-042509ab2e95)
+
 ## ICMP Traceroute:
 
-sudo traceroute  www.saveetha.ac.in
+sudo traceroute  www.google.com
 
 ## Output:
-![image](https://github.com/gokul-sureshkumar/InformationGathering/assets/121148715/5b0e049e-98ee-4849-ad1c-de8d8189927e)
+
+![Screenshot (106)](https://github.com/user-attachments/assets/7ff961f7-a420-4b78-ba6d-22de3e127e48)
 
 
 
